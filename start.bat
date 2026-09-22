@@ -1,0 +1,3 @@
+@echo off
+echo Starting GuardianEye AI Disaster Search & Rescue Platform...
+node run_all.js

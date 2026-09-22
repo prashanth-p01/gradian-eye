@@ -1,0 +1,17 @@
+{
+  "name": "guardianeye-backend",
+  "version": "1.0.0",
+  "description": "GuardianEye AI Disaster Search Backend (Node.js/Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node database/seed.js",
+    "test": "node tests/test_backend.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "disaster": {
+    "name": "Metro Flood & Structural Collapse 2026",
+    "type": "Flood",
+    "status": "ACTIVE",
+    "location_center_lat": 37.7749,
+    "location_center_lng": -122.4194
+  },
+  "sectors": [
+    { "code": "A01", "name": "North Ridge High", "search_status": "SEARCHING", "risk_level": "MEDIUM", "priority_rank": 2, "scanned_percentage": 80.0 },
+    { "code": "A02", "name": "North Commercial Hub", "search_status": "SEARCHED", "risk_level": "LOW", "priority_rank": 3, "scanned_percentage": 90.0 },
+    { "code": "A03", "name": "East River Basin", "search_status": "UNSEARCHED", "risk_level": "HIGH", "priority_rank": 4, "scanned_percentage": 10.0 },
+    { "code": "A04", "name": "East Suburb", "search_status": "SEARCHED", "risk_level": "LOW", "priority_rank": 5, "scanned_percentage": 95.0 },
+    { "code": "B05", "name": "Central Mall Ruins", "search_status": "SEARCHING", "risk_level": "MEDIUM", "priority_rank": 6, "scanned_percentage": 40.0 },
+    { "code": "B06", "name": "Bridge Highway 4", "search_status": "UNSEARCHED", "risk_level": "HIGH", "priority_rank": 7, "scanned_percentage": 15.0 },
+    { "code": "B07", "name": "Industrial Park B7", "search_status": "CRITICAL", "risk_level": "CRITICAL", "priority_rank": 1, "scanned_percentage": 45.0 },
+    { "code": "B08", "name": "South Railway Yard", "search_status": "UNSEARCHED", "risk_level": "MEDIUM", "priority_rank": 8, "scanned_percentage": 20.0 },
+    { "code": "C09", "name": "West Residential Zone", "search_status": "UNSEARCHED", "risk_level": "MEDIUM", "priority_rank": 9, "scanned_percentage": 10.0 },
+    { "code": "C10", "name": "Civic Center Plaza", "search_status": "SEARCHED", "risk_level": "LOW", "priority_rank": 10, "scanned_percentage": 85.0 },
+    { "code": "C11", "name": "South Flood Barrier", "search_status": "UNSEARCHED", "risk_level": "HIGH", "priority_rank": 11, "scanned_percentage": 10.0 },
+    { "code": "C12", "name": "East Relief Camp", "search_status": "SEARCHED", "risk_level": "LOW", "priority_rank": 12, "scanned_percentage": 100.0 }
+  ],
+  "drones": [
+    { "code": "D01", "model": "Guardian Thermal-X", "battery_level": 78.0, "flight_status": "SEARCHING", "current_sector_code": "A01" },
+    { "code": "D02", "model": "Guardian Scout-V2", "battery_level": 32.0, "flight_status": "PRIORITY_INVESTIGATION", "current_sector_code": "B07" },
+    { "code": "D03", "model": "Guardian Heavy-Cargo", "battery_level": 15.0, "flight_status": "RETURNING", "current_sector_code": "C11" }
+  ],
+  "rescue_teams": [
+    { "code": "TEAM_ALPHA", "name": "Rescue Team Alpha (Heavy Urban SAR)", "status": "AVAILABLE" },
+    { "code": "TEAM_BRAVO", "name": "Rescue Team Bravo (Rapid Swift Water)", "status": "DEPLOYED", "assigned_sector_code": "B07" }
+  ],
+  "shelters": [
+    { "code": "SHELTER_NORTH", "name": "North High School Relief Shelter", "capacity": 250, "occupants": 240, "status": "NEAR CAPACITY", "food_stock_days": 2.5, "water_stock_days": 2.0 },
+    { "code": "SHELTER_CENTRAL", "name": "Central Stadium Complex", "capacity": 600, "occupants": 310, "status": "SAFE", "food_stock_days": 6.0, "water_stock_days": 5.0 },
+    { "code": "SHELTER_WEST", "name": "West Civic Gym", "capacity": 150, "occupants": 150, "status": "FULL", "food_stock_days": 1.0, "water_stock_days": 1.5 }
+  ]
+}
